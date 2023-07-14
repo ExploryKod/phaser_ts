@@ -1,0 +1,54 @@
+{
+    "id": "209c6d0d-4fb8-499a-b6ba-4625b05bb3ef",
+    "sceneType": "PREFAB",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 1920,
+        "borderHeight": 1080
+    },
+    "displayList": [
+        {
+            "type": "BitmapText",
+            "id": "e68e671e-ed40-4b3a-91e9-81b5df19d6ed",
+            "label": "bitmaptext_1",
+            "components": [],
+            "x": 960,
+            "y": 540,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "Game Over!",
+            "font": "hyperdrive",
+            "fontSize": 200,
+            "list": [
+                {
+                    "prefabId": "d90814ed-6b9b-48a5-b3ae-48f006ecf4ae",
+                    "id": "c8eda6c8-2ac8-4a99-b6b8-6950c52195be",
+                    "label": "fadeInScript",
+                    "components": [],
+                    "nestedPrefabs": [],
+                    "list": []
+                },
+                {
+                    "prefabId": "1de438d1-5401-42d3-a8b0-adda8fc8c320",
+                    "id": "390a34b9-6af3-4333-ae37-4998adb2e2d5",
+                    "label": "floatingObjectScript",
+                    "components": [],
+                    "nestedPrefabs": [],
+                    "list": []
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}
